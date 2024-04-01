@@ -2,7 +2,7 @@ package weiyun
 
 import (
 	"errors"
-	"github.com/jwwsjlm/weiyun/utils"
+	"github.com/jwwsjlm/weiyun_share/utils"
 	"github.com/tidwall/gjson"
 	"html"
 	"io"

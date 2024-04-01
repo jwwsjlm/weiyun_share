@@ -1,4 +1,4 @@
-module weiyun
+module github.com/jwwsjlm/weiyun
 
 go 1.22.1
 

@@ -1,6 +1,8 @@
 package utils
 
-import "math/rand/v2"
+import (
+	"math/rand/v2"
+)
 
 func GetARandom(l int) int {
 

@@ -2,13 +2,13 @@ package weiyun
 
 import (
 	"errors"
+	"github.com/jwwsjlm/weiyun/utils"
 	"github.com/tidwall/gjson"
 	"io"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
-	"weiyun/utils"
 )
 
 func (w *Weiyun) WeiyunText() (string, error) {

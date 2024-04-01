@@ -2,6 +2,7 @@ package weiyun
 
 import (
 	"errors"
+	"github.com/jwwsjlm/weiyun/utils"
 	"github.com/tidwall/gjson"
 	"html"
 	"io"
@@ -9,7 +10,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"weiyun/utils"
 )
 
 func (w *Weiyun) WeiyunJson() (string, error) {

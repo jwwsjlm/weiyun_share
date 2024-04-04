@@ -1,17 +1,13 @@
 package utils
 
 import (
+	"math"
 	"math/rand/v2"
 )
 
 func GetARandom(l int) int {
-
-	number := 0
-	for i := 0; i < l; i++ {
-		c := rand.IntN(9) + 1
-
-		number = number*10 + c
-
-	}
-	return number
+	maxnum := int(math.Pow10(l) - 1)
+	minnum := int(math.Pow10(l - 1))
+	randomNumber := rand.IntN(maxnum-minnum+1) + minnum
+	return randomNumber
 }

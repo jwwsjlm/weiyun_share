@@ -1,6 +1,6 @@
 module github.com/jwwsjlm/weiyun_share
 
-go 1.22.1
+go 1.22.2
 
 require (
 	github.com/microcosm-cc/bluemonday v1.0.26
